@@ -1,0 +1,433 @@
+@media(max-width: 1220px){
+	.caption {
+		max-width: 577px;
+		padding-left: 227px;
+	}
+	.caption .desc{
+		margin: 20px 0;
+	}
+}
+@media(max-width: 1180px){
+	.navbar-collapse {
+		-webkit-box-flex: 1;
+		-ms-flex-positive: 1;
+		flex-grow: 1;
+	}
+	.nav-bottom .dropdown-menu .dropdown-item,
+	.nav-bottom .navbar-nav .nav-link{
+		font-size: 11px;
+	}
+}
+
+@media(max-width: 1080px){
+	.nav-bottom .navbar-nav .nav-link {
+		font-size: 10px;
+	}
+}
+@media(max-width: 991px){
+	.header{
+		top: 0;
+	}
+	.header.fixed-top {
+		top: 0;
+	}
+	.header.fixed-top .nav-top{
+		height: 79px;
+		padding: 20px;
+		overflow: initial;
+	}
+	.logo img {
+		width: 143px;
+	}
+	.nav-top{
+		background: #ffffffb3;
+		padding: 20px;
+		height: 79px;
+		z-index: 11;
+	}
+	.nav-top .navbar-toggler {
+		position: absolute;
+		right: 2.9%;
+		padding: 0;
+		height: 40px;
+	}
+	.nav-top .navbar-toggler .fa{
+		color: #434342;
+	}
+	.navbar.nav-bottom {
+		background-color: transparent;
+		margin: 0;
+		z-index: 12;
+		max-width: 100px;
+	}
+	.nav-bottom .ico-home{
+		display: none;
+	}
+	.nav-bottom .navbar-toggler {
+		position: absolute;
+		top: -92%;
+		left: 22%;
+		padding: 0;
+		height: 40px;
+	}
+	.nav-bottom .navbar-nav .nav-link{
+		color: #434342;
+		line-height: 40px;
+		font-size: 13px;
+	}
+	.nav-bottom .dropdown-menu .dropdown-item {
+		background: #434342;
+	}
+	.nav-bottom .navbar-nav {
+		padding-left: 52px;
+		-webkit-box-align: start;
+		-ms-flex-align: start;
+		-ms-grid-row-align: flex-start;
+		align-items: flex-start;
+		height: 100vh;
+	}
+	.nav-bottom .navbar-collapse {
+		-webkit-box-pack: end;
+		-ms-flex-pack: end;
+		justify-content: flex-end;
+		margin-left: auto;
+		position: absolute;
+		top: 0;
+		background: #39c3;
+		width: 50%;
+		left: 0;
+	}
+	.nav-bottom .navbar-toggler.fixed-top {
+		position: fixed;
+		top: 2.5%;
+		left: 22px;
+	}
+	.nav-bottom .navbar-collapse{
+		position: fixed;
+		top: 79px;
+		background-color: #ffffffb3;
+		border-top: 1px solid #4343421a;
+	}
+	.nav-bottom .dropdown-menu .dropdown-item:hover {
+		background: #434342cc;
+	}
+	.navbar .navbar-toggler .menu-icon-bar {
+		background-color: #434342;
+	}
+	.navbar .navbar-brand {
+		margin-left: 60px;
+	}
+	.nav-top .dropdown-menu .dropdown-item:hover {
+		background: #636361cc;
+	}
+	.lang .dropdown-menu{
+		background: #434342;
+		border: none;
+	}
+	.navbar.fixed-top {
+		position: fixed;
+		-webkit-animation: navbar-animation 0.6s;
+		animation: navbar-animation 0.6s;
+		background-color: #ffffffb3;
+	}
+	.navbar.fixed-top.nav-bottom .navbar-nav .nav-link.active {
+		color: #c0ca33;
+	}
+	.navbar-toggler.collapsed.fixed-top {
+		position: fixed;
+		top: 2.5%;
+		left: 2.3%;
+	}
+	@-webkit-keyframes navbar-animation {
+		0% {
+			opacity: 0;
+			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+			-webkit-transform: translateY(-100%);
+			transform: translateY(-100%);
+		}
+		100% {
+			opacity: 1;
+			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+			-webkit-transform: translateY(0);
+			transform: translateY(0);
+		}
+	}
+	@keyframes navbar-animation {
+		0% {
+			opacity: 0;
+			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+			-webkit-transform: translateY(-100%);
+			transform: translateY(-100%);
+		}
+		100% {
+			opacity: 1;
+			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+			-webkit-transform: translateY(0);
+			transform: translateY(0);
+		}
+	}
+	@-webkit-keyframes dropdown-animation {
+		0% {
+			-webkit-transform: scaleY(0);
+			transform: scaleY(0);
+		}
+		75% {
+			-webkit-transform: scaleY(1.1);
+			transform: scaleY(1.1);
+		}
+		100% {
+			-webkit-transform: scaleY(1);
+			transform: scaleY(1);
+		}
+	}
+	@keyframes dropdown-animation {
+		0% {
+			-webkit-transform: scaleY(0);
+			transform: scaleY(0);
+		}
+		75% {
+			-webkit-transform: scaleY(1.1);
+			transform: scaleY(1.1);
+		}
+		100% {
+			-webkit-transform: scaleY(1);
+			transform: scaleY(1);
+		}
+	}
+	.contacts-item{
+		margin-right: 15px;
+	}
+	.contacts-item .dropdown-toggle,
+	.contacts-item .phone-number a,
+	.contacts-item .text p{
+		font-size: 13px;
+	}
+	.contacts-item .dropdown-menu {
+		padding: 0;
+	}
+	.carousel-item {
+		background-size: 100%;
+		background-position: center 186px;
+	}
+	.carousel-control-next .fa, .carousel-control-prev .fa {
+		padding: 5px 7px;
+		font-size: 14px;
+	}
+	.carousel .row {
+		margin-top: -550px;
+	}
+	.insurance-inset {
+		padding: 10px 0 0 28px;
+	}
+	.carousel{
+		top: -96px;
+	}
+	.caption {
+		background-color: #f5f5f799;
+		padding: 80px 60px 40px 60px;
+	}
+	.about-company{
+		background-size: cover;
+		background-position: 0 0;
+		margin-top: -15px;
+	}
+	.about-company .container{
+		padding: 0;
+	}
+	.card{
+		margin-bottom: 40px;
+	}
+	.developed-by {
+		margin-top: 24px;
+	}
+	.developed-by a {
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+	}
+	.hvr-overline-from-center::before {
+		top: 37px;
+	}
+}
+@media (max-width: 767px) {
+	body {
+		overflow-x: hidden;
+	}
+	.navbar-brand {
+		margin-left: 20px;
+	}
+	.navbar.fixed-top .navbar-nav {
+		background: transparent;
+	}
+	.nav-top .navbar-collapse {
+		-webkit-box-pack: end;
+		-ms-flex-pack: end;
+		justify-content: flex-end;
+		margin-left: auto;
+		position: absolute;
+		top: 165%;
+		background: #ffffffb3;
+		width: 109%;
+		left: -4%;
+		border-top: 1px solid #4343421a;
+	}
+	.nav-top .navbar-brand {
+		margin-left: 75px;
+	}
+	.nav-top.fixed-top .navbar-collapse{
+		border: 1px solid rgba(255, 255, 255, .1);
+	}
+	.nav-top.fixed-top .navbar-collapse{
+		background-color: #ffffffb3;
+	}
+	.nav-top .navbar-toggler .fa{
+		-webkit-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	.nav-top .navbar-toggler[aria-expanded="true"] .fa{
+		-webkit-transform: rotate(89deg);
+		transform: rotate(89deg);
+	}
+	.nav-bottom .navbar-toggler.fixed-top {
+		left: 20px;
+	}
+	.nav-bottom .navbar-toggler {
+		left: 20%;
+	}
+	.carousel .row {
+		margin-top: -500px;
+	}
+	.carousel .row > div::before{
+		height: 316px;
+	}
+	.contacts {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		padding: 20px;
+	}
+	.contacts-item .dropdown-toggle{
+		position: relative;
+		z-index: 7;
+		color: var(--white);
+	}
+	.contacts{
+		display: -ms-grid;
+		display: grid;
+		-ms-grid-columns: 1fr 1fr 100px;
+		grid-template-columns: 1fr 1fr 100px;
+		-ms-grid-column-align: center;
+		justify-items: center;
+	}
+	.contacts-item.hvr-grow{
+		margin-left: 0;
+	}
+	.carousel-item {
+		background-size: 155%;
+	}
+	.insurance{
+		margin-bottom: 22px;
+	}
+	.insurance-inset {
+		padding: 28px 0 0 28px;
+	}
+	.btn-send {
+		margin-top: 75px;
+	}
+	.caption{
+		max-width: 100%;
+	}
+	.about-company{
+		margin-top: -37px;
+	}
+}
+@media screen and (min-width: 767px) {
+	.nav-bottom .navbar-nav .nav-link:hover:after {
+		-webkit-transform: scaleX(1);
+		transform: scaleX(1);
+	}
+	.dropdown-menu {
+		min-width: 200px;
+		-webkit-animation: dropdown-animation 0.3s;
+		animation: dropdown-animation 0.3s;
+		-webkit-transform-origin: top;
+		transform-origin: top;
+	}
+}
+@media(max-width: 575px){
+	.nav-bottom .navbar-nav {
+		padding-left: 33px;
+	}
+	.nav-bottom .navbar-collapse{
+		width: 57%;
+	}
+	.nav-bottom .navbar-toggler.fixed-top {
+		left: 10px;
+	}
+	.nav-bottom .navbar-toggler {
+		left: 10%;
+	}
+	.contacts{
+		-ms-grid-columns: 1fr;
+		grid-template-columns: 1fr;
+		grid-gap: 30px;
+	}
+	.contacts-item{
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		margin-right: 0;
+	}
+	.social-icons {
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+		margin-top: 24px;
+	}
+	.news .row > div{
+		margin: auto;
+	}
+	.card {
+		margin-bottom: 50px;
+	}
+	.card-text{
+		margin-bottom: 15px;
+	}
+	.caption {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.carousel .row {
+		margin-top: -600px;
+	}
+}
+@media(max-width: 480px){
+	.nav-top .navbar-brand {
+		margin-left: 42px;
+	}
+	.nav-bottom .navbar-collapse {
+		width: 265px;
+	}
+	.lang {
+		right: 55px;
+	}
+	.carousel-item {
+		background-size: 170%;
+	}
+	.contacts{
+		-ms-grid-columns: 1fr;
+		grid-template-columns: 1fr;
+	}
+	.insurance-inset {
+		padding: 9px 0 0 28px;
+	}
+	.insurance-inset .subtitle{
+		font-size: 16px;
+	}
+	.insurance-inset .desc{
+		font-size: 12px;
+	}
+	.btn-send .btn{
+		width: 100%;
+	}
+}
